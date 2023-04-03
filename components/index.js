@@ -1,0 +1,13 @@
+export { default as About } from "./About/About";
+export { default as Banner } from "./Banner/Banner";
+export { default as Carousel } from "./Carousel/Carousel";
+export { default as Card } from "./Carousel/components/Card";
+export { default as Footer } from "./Footer/Footer";
+export { default as Hero } from "./Hero/Hero";
+export * from "./Icons/Icons";
+export { default as Navbar } from "./Navbar/Navbar";
+export { default as Novedades } from "./Novedades/Novedades";
+export { default as Popular } from "./Popular/Popular";
+export { default as Prime } from "./Prime/Prime";
+export { default as Tendencias } from "./Tendencias/Tendencias";
+export * from "./index";
