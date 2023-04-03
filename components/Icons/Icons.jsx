@@ -34,11 +34,11 @@ export function Carrito() {
   );
 }
 
-export function Favorite({ width = null, height = null }) {
+export function Favorite({ width = null, height = null, stilo = null }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="icon icon-tabler icon-tabler-heart"
+      className={stilo === null ? "" : stilo}
       width={width === null ? "32" : width}
       height={height === null ? "32" : height}
       viewBox="0 0 24 24"

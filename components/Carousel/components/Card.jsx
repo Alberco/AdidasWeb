@@ -1,15 +1,28 @@
+"use client";
 import { Favorite } from "@/components";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 
 function Card({ data }) {
   const { name, description, price, img, status } = data;
+  const [favorito, setFavorito] = useState(false);
+  const handlerFavorite = () => {
+    setFavorito(!favorito);
+  };
+
   return (
     <article className="group-hover">
       <div className="relative w-72 group">
         <Image src={img} alt="zapatillas adidas" />
-        <span className="absolute top-2 right-4 h-7 ">
-          <Favorite width={25} height={25} />
+        <span
+          className="absolute top-2 right-4 h-7 cursor-pointer"
+          onClick={handlerFavorite}
+        >
+          <Favorite
+            width={25}
+            height={25}
+            stilo={favorito ? "fill-black" : "stroke-black "}
+          />
         </span>
         <span className="group-hover:-translate-y-2 duration-200 transition-transform absolute -bottom-1 left-2 px-2 py-1 bg-white text-sm">
           {status ? `S/. ${price}` : "agotado"}

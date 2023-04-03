@@ -1,40 +1,63 @@
+import Link from "next/link";
 import { Adidas, Carrito, Favorite, Menu, Search, User } from "..";
 
 function Navbar() {
   return (
     <>
-      <nav className="bg-gray-100 hidden lg:block">
+      <nav className="bg-gray-100 hidden  lg:block">
         {/* Mini Banner */}
         <div className="flex justify-center items-center text-white font-bold bg-black py-2">
-          <p className="text-xs">
+          <Link href="/" className="text-xs">
             🔽 REALIZA TUS DEVOLUCIONES DE MANERA RAPIDA AQUI 🔽
-          </p>
+          </Link>
         </div>
         {/* Mini Banner 2 */}
         <ul className="flex text-black text-xs justify-end items-center gap-4 pr-8 py-2">
-          <li>ayuda</li>
-          <li>cambios y devoluciones</li>
-          <li>seguimiento de pedidos</li>
-          <li>únete al club</li>
+          <li>
+            <Link href="/">ayuda</Link>
+          </li>
+          <li>
+            <Link href="/">cambios y devoluciones</Link>
+          </li>
+          <li>
+            <Link href="/">seguimiento de pedidos</Link>
+          </li>
+          <li>
+            <Link href="/">únete al club</Link>
+          </li>
         </ul>
         {/* Banner Principal */}
         <div className="flex justify-between text-black px-10 py-1">
           <ul className="flex py-2 basis-1/4">
             <li className="w-16 h-auto">
-              <a href="#" className="bg-green-700 w-full h-full">
+              <Link href="/" className="bg-green-700 w-full h-full">
                 <Adidas />
-              </a>
+              </Link>
             </li>
           </ul>
 
-          <ul className="flex justify-center items-center gap-6 text-sm font-bold tracking-widest basis-1/2">
-            <li>MUJER</li>
-            <li>HOMBRE</li>
-            <li>NIÑOS</li>
-            <li>NOVEDADES</li>
-            <li>DEPORTE</li>
-            <li>MUNDO ADIDAS</li>
-            <li>CYYBER DAYS</li>
+          <ul className="flex justify-center items-center lg:px-4  gap-6 md:gap-4 text-xs lg:text-sm font-bold tracking-widest basis-1/2">
+            <li>
+              <Link href="/">MUJER</Link>
+            </li>
+            <li>
+              <Link href="/">HOMBRE</Link>
+            </li>
+            <li>
+              <Link href="/">NIÑOS</Link>
+            </li>
+            <li>
+              <Link href="/">NOVEDADES</Link>
+            </li>
+            <li>
+              <Link href="/">DEPORTE</Link>
+            </li>
+            <li>
+              <Link href="/">MUNDO ADIDAS</Link>
+            </li>
+            <li>
+              <Link href="/">CYYBER DAYS</Link>
+            </li>
           </ul>
 
           <ul className="flex justify-end gap-3 items-center basis-1/4">
@@ -53,19 +76,19 @@ function Navbar() {
               </form>
             </li>
             <li>
-              <a href="">
+              <Link href="/">
                 <User />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="">
+              <Link href="/">
                 <Favorite />
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="">
+              <Link href="/">
                 <Carrito />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
