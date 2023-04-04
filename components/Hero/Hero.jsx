@@ -13,6 +13,7 @@ function Hero() {
           width="100%"
           height="100%"
           className=""
+          placeholder="blur"
           priority
         />
         <div className="absolute inset-y-0 left-4 lg:left-40 flex flex-col justify-center">
