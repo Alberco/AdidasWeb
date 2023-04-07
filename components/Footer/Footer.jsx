@@ -1,4 +1,4 @@
-import { ArrowD } from "..";
+import { ArrowD, Facebook, Instagram, Pinterest, Telegram, Youtube } from "..";
 
 function Footer() {
   return (
@@ -92,15 +92,34 @@ function Footer() {
             <li></li>
           </ul>
         </li>
-        <li className="hidden lg:block">
+        <li className="hidden lg:block ">
           <h5 className="text-lg font-bold pb-1">SÍGUENOS</h5>
-          <ul className="flex flex-col gap-1 text-sm">
-            <li>f</li>
-            <li>i</li>
-            <li>t</li>
-            <li>p</li>
-            <li>tk</li>
-            <li>y</li>
+          <ul className="flex flex-col justify-center items-center text-sm">
+            <li>
+              <a href="#">
+                <Facebook />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <Instagram />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <Telegram />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <Pinterest />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <Youtube />
+              </a>
+            </li>
           </ul>
         </li>
       </ul>

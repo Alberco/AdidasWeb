@@ -15,7 +15,7 @@ function Carousel({ objetos, id }) {
 
   return (
     <>
-      <div className="flex justify-end gap-3 pb-2">
+      <div className="flex justify-end gap-3 pb-2 touch-pan-x">
         <button
           onClick={handleScrollLeft}
           className="group hover:bg-black transition-all duration-100"
@@ -30,7 +30,7 @@ function Carousel({ objetos, id }) {
         </button>
       </div>
       <div
-        className="flex gap-4 overflow-hidden"
+        className="flex gap-4 overflow-hidden touch-pan-x"
         id={`scrollContainer${id}`}
         style={{ scrollBehavior: "smooth" }}
       >

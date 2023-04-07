@@ -180,3 +180,106 @@ export function Menu({ width = null, height = null, stilo = null }) {
     </svg>
   );
 }
+
+export function Facebook({ width = null, height = null }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="icon icon-tabler icon-tabler-brand-facebook"
+      width={width === null ? "32" : width}
+      height={height === null ? "32" : height}
+      viewBox="0 0 24 24"
+      strokeWidth="1.5"
+      stroke="#000000"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+    </svg>
+  );
+}
+
+export function Instagram({ width = null, height = null }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="icon icon-tabler icon-tabler-brand-instagram"
+      width={width === null ? "32" : width}
+      height={height === null ? "32" : height}
+      viewBox="0 0 24 24"
+      strokeWidth="1.5"
+      stroke="#000000"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <rect x="4" y="4" width="16" height="16" rx="4" />
+      <circle cx="12" cy="12" r="3" />
+      <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+    </svg>
+  );
+}
+
+export function Telegram({ width = null, height = null }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="icon icon-tabler icon-tabler-brand-telegram"
+      width={width === null ? "32" : width}
+      height={height === null ? "32" : height}
+      viewBox="0 0 24 24"
+      strokeWidth="1.5"
+      stroke="#000000"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
+    </svg>
+  );
+}
+export function Pinterest({ width = null, height = null }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="icon icon-tabler icon-tabler-brand-pinterest"
+      width={width === null ? "32" : width}
+      height={height === null ? "32" : height}
+      viewBox="0 0 24 24"
+      strokeWidth="1.5"
+      stroke="#000000"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <line x1="8" y1="20" x2="12" y2="11" />
+      <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7" />
+      <circle cx="12" cy="12" r="9" />
+    </svg>
+  );
+}
+export function Youtube({ width = null, height = null }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="icon icon-tabler icon-tabler-brand-youtube"
+      width={width === null ? "32" : width}
+      height={height === null ? "32" : height}
+      viewBox="0 0 24 24"
+      strokeWidth="1.5"
+      stroke="#000000"
+      fill="none"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <rect x="3" y="5" width="18" height="14" rx="4" />
+      <path d="M10 9l5 3l-5 3z" />
+    </svg>
+  );
+}
