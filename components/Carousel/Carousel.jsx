@@ -30,7 +30,7 @@ function Carousel({ objetos, id }) {
         </button>
       </div>
       <div
-        className="flex gap-4 overflow-hidden  container mx-auto "
+        className="flex gap-4 overflow-hidden"
         id={`scrollContainer${id}`}
         style={{ scrollBehavior: "smooth" }}
       >

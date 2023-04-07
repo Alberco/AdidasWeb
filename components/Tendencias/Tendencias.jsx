@@ -2,9 +2,9 @@ import Image from "next/image";
 import tendencia4 from "../../public/tendicia4.webp";
 function Tendencias() {
   return (
-    <section className="container mx-auto">
-      <h3 className="text-4xl font-bold py-4 px-10 lg:px-0">TENDENCIAS</h3>
-      <div className="flex flex-wrap px-10 lg:px-0 lg:flex-nowrap gap-4 w-full h-auto">
+    <section className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
+      <h3 className="text-4xl font-bold py-4">TENDENCIAS</h3>
+      <div className="flex flex-wrap xl:flex-nowrap gap-4 w-full h-auto">
         <article className="w-full h-full">
           <video loop autoPlay muted className="w-full h-full object-cover">
             <source src="tendencia1.mp4" type="video/mp4" />

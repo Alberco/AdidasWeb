@@ -3,9 +3,9 @@ import React from "react";
 function About() {
   return (
     <section className="bg-[#f5f5e5] my-4">
-      <div className="container mx-auto px-10 lg:px-20 py-24 flex flex-wrap lg:flex-nowrap justify-center gap-10 lg:gap-36">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex flex-wrap lg:flex-nowrap justify-center gap-10 lg:gap-36">
         <article>
-          <p className="text-4xl w-2/3 font-bold pb-4">
+          <p className="text-4xl font-bold pb-4">
             HISTORIA, MODA Y ROPA DEPORTIVA ADIDAS DESDE 1949
           </p>
           <p className="text-sm text-gray-600 font-medium pb-4">
@@ -34,7 +34,7 @@ function About() {
           </p>
         </article>
         <article>
-          <p className="text-4xl w-1/2 font-bold pb-4">
+          <p className="text-4xl font-bold pb-4">
             TU TIENDA DEPORTIVA PARA CUALQUIER DEPORTE
           </p>
           <p className="text-sm text-gray-600 font-medium pb-4">

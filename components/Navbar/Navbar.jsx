@@ -28,7 +28,7 @@ function Navbar() {
         </ul>
         {/* Banner Principal */}
         <div className="flex justify-between text-black px-10 py-1">
-          <ul className="flex py-2 basis-1/4">
+          <ul className="flex py-2">
             <li className="w-16 h-auto">
               <Link href="/" className="bg-green-700 w-full h-full">
                 <Adidas />
@@ -36,7 +36,7 @@ function Navbar() {
             </li>
           </ul>
 
-          <ul className="flex justify-center items-center lg:px-4  gap-6 md:gap-4 text-xs lg:text-sm font-bold tracking-widest basis-1/2">
+          <ul className="flex justify-center items-center gap-6 md:gap-4 text-xs lg:text-sm font-bold tracking-widest">
             <li>
               <Link href="/">MUJER</Link>
             </li>
@@ -60,7 +60,7 @@ function Navbar() {
             </li>
           </ul>
 
-          <ul className="flex justify-end gap-3 items-center basis-1/4">
+          <ul className="flex justify-end gap-3 items-center ">
             <li>
               <form action="" className="relative">
                 <input

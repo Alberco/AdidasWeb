@@ -17,7 +17,7 @@ function Footer() {
           </span>
         </button>
       </div>
-      <ul className="flex flex-wrap text-xs lg:text-sm lg:flex-nowrap justify-around lg:justify-center gap-10  container mx-auto py-4">
+      <ul className="flex flex-wrap text-xs py-8 lg:text-sm lg:flex-nowrap justify-around lg:justify-center gap-10  container mx-auto py-4">
         <li>
           <h5 className="text-lg font-bold pb-1">PRODUCTOS</h5>
           <ul className="flex flex-col gap-1 text-sm">

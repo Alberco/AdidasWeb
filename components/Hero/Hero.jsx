@@ -6,17 +6,15 @@ import Link from "next/link";
 function Hero() {
   return (
     <section className="relative w-full h-auto">
-      <div className="relative">
+      <div className="relative w-full">
         <Image
           src={HeroImg}
           alt="hero adidas"
-          width="100%"
-          height="100%"
-          className=""
+          className="object-cover w-full"
           placeholder="blur"
           priority
         />
-        <div className="absolute inset-y-0 left-4 lg:left-40 flex flex-col justify-center">
+        <div className="absolute inset-y-0 left-4 sm:left-20 lg:left-40 flex flex-col justify-center">
           <p className="text-md lg:text-4xl font-bold text-white">
             ¡LOS DESCUENTOS QUE
             <span className="block">ESPERABAS!</span>
@@ -40,8 +38,8 @@ function Hero() {
         </div>
       </div>
       <div className="w-full h-auto relative">
-        <div className=" absolute inset-y-2 left-0 px-2 lg:px-0 lg:left-40 flex flex-col justify-center text-white">
-          <Image src={logov2} alt="logov2" width={300} height={400} />
+        <div className="absolute inset-y-2 left-10 sm:left-20 lg:left-40 flex flex-col justify-center text-white">
+          <Image src={logov2} alt="logov2" width={200} height={200} />
           <p className="text-xl lg:text-4xl font-bold">BATIENDO RECORDS</p>
           <p className="text-sm lg:text-xl my-2 w-60">
             Diseñadas para romper récords. Adizero.Creadas para ganar.

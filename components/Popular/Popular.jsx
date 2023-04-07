@@ -2,11 +2,9 @@ import React from "react";
 
 function Popular() {
   return (
-    <section>
-      <p className="container mx-auto px-10 lg:px-20 text-3xl font-bold pt-4 pb-16">
-        POPULAR AHORA
-      </p>
-      <ul className="grid grid-cols-1 grid-rows-1  lg:grid-cols-3 lg:grid-rows-2 container mx-auto px-10 lg:px-20 gap-16 pb-8">
+    <section className="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
+      <p className="text-3xl font-bold pt-4 pb-16">POPULAR AHORA</p>
+      <ul className="grid grid-cols-1 grid-rows-1  lg:grid-cols-3 lg:grid-rows-2 mx-auto gap-16 pb-8">
         <li>
           <a
             href=""
